@@ -14,6 +14,10 @@
 		061AA425243F7FDA00293BAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 061AA424243F7FDA00293BAE /* Assets.xcassets */; };
 		061AA428243F7FDA00293BAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 061AA426243F7FDA00293BAE /* LaunchScreen.storyboard */; };
 		061AA433243F7FDA00293BAE /* testARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061AA432243F7FDA00293BAE /* testARTests.swift */; };
+		0684CB0224435A9700835F03 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0684CB0124435A9700835F03 /* ARViewController.swift */; };
+		0684CB0624446B8000835F03 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0684CB0524446B8000835F03 /* README.md */; };
+		06BDA3D42449DC76000B8CEF /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BDA3D32449DC76000B8CEF /* Colors.swift */; };
+		06BDA3D62449F09F000B8CEF /* Tricks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BDA3D52449F09F000B8CEF /* Tricks.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,10 @@
 		061AA42E243F7FDA00293BAE /* testARTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testARTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		061AA432243F7FDA00293BAE /* testARTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testARTests.swift; sourceTree = "<group>"; };
 		061AA434243F7FDA00293BAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0684CB0124435A9700835F03 /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		0684CB0524446B8000835F03 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		06BDA3D32449DC76000B8CEF /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		06BDA3D52449F09F000B8CEF /* Tricks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tricks.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +69,7 @@
 		061AA40F243F7FD900293BAE = {
 			isa = PBXGroup;
 			children = (
+				0684CB0524446B8000835F03 /* README.md */,
 				061AA41A243F7FD900293BAE /* testAR */,
 				061AA431243F7FDA00293BAE /* testARTests */,
 				061AA419243F7FD900293BAE /* Products */,
@@ -86,6 +95,9 @@
 				061AA424243F7FDA00293BAE /* Assets.xcassets */,
 				061AA426243F7FDA00293BAE /* LaunchScreen.storyboard */,
 				061AA429243F7FDA00293BAE /* Info.plist */,
+				0684CB0124435A9700835F03 /* ARViewController.swift */,
+				06BDA3D32449DC76000B8CEF /* Colors.swift */,
+				06BDA3D52449F09F000B8CEF /* Tricks.swift */,
 			);
 			path = testAR;
 			sourceTree = "<group>";
@@ -182,6 +194,7 @@
 			files = (
 				061AA41E243F7FD900293BAE /* art.scnassets in Resources */,
 				061AA428243F7FDA00293BAE /* LaunchScreen.storyboard in Resources */,
+				0684CB0624446B8000835F03 /* README.md in Resources */,
 				061AA425243F7FDA00293BAE /* Assets.xcassets in Resources */,
 				061AA423243F7FD900293BAE /* Main.storyboard in Resources */,
 			);
@@ -201,6 +214,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06BDA3D62449F09F000B8CEF /* Tricks.swift in Sources */,
+				0684CB0224435A9700835F03 /* ARViewController.swift in Sources */,
+				06BDA3D42449DC76000B8CEF /* Colors.swift in Sources */,
 				061AA420243F7FD900293BAE /* ViewController.swift in Sources */,
 				061AA41C243F7FD900293BAE /* AppDelegate.swift in Sources */,
 			);
@@ -363,7 +379,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UC97RBW2Y8;
 				INFOPLIST_FILE = testAR/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -380,7 +398,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UC97RBW2Y8;
 				INFOPLIST_FILE = testAR/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
